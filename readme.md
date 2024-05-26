@@ -64,5 +64,15 @@ To start working on the project, follow these steps:
    dotnet sln add $(ls -r **/*.csproj)
    ```
 
+5. Add the reference of contract project to main project:
+   ```bash
+   dotnet add ./BuberBreakfast/ reference ./BuberBreakfast.Contracts/
+   ```
+
+5. Run the project:
+   ```bash
+   dotnet run --project ./BuberBreakfast/
+   ```
+
 These steps will set up the solution and projects, allowing you to start developing your REST API.
 
