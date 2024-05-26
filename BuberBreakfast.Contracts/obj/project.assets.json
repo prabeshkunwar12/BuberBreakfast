@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\prabe\\OneDrive\\Desktop\\projects\\BuberBreakfast\\BuberBreakfast\\BuberBreakfast\\BuberBreakfast.csproj",
-      "projectName": "BuberBreakfast",
-      "projectPath": "C:\\Users\\prabe\\OneDrive\\Desktop\\projects\\BuberBreakfast\\BuberBreakfast\\BuberBreakfast\\BuberBreakfast.csproj",
+      "projectUniqueName": "C:\\Users\\prabe\\OneDrive\\Desktop\\projects\\BuberBreakfast\\BuberBreakfast\\BuberBreakfast.Contracts\\BuberBreakfast.Contracts.csproj",
+      "projectName": "BuberBreakfast.Contracts",
+      "projectPath": "C:\\Users\\prabe\\OneDrive\\Desktop\\projects\\BuberBreakfast\\BuberBreakfast\\BuberBreakfast.Contracts\\BuberBreakfast.Contracts.csproj",
       "packagesPath": "C:\\Users\\prabe\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\prabe\\OneDrive\\Desktop\\projects\\BuberBreakfast\\BuberBreakfast\\BuberBreakfast\\obj\\",
+      "outputPath": "C:\\Users\\prabe\\OneDrive\\Desktop\\projects\\BuberBreakfast\\BuberBreakfast\\BuberBreakfast.Contracts\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\prabe\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -63,9 +63,6 @@
         "assetTargetFallback": true,
         "warn": true,
         "frameworkReferences": {
-          "Microsoft.AspNetCore.App": {
-            "privateAssets": "none"
-          },
           "Microsoft.NETCore.App": {
             "privateAssets": "all"
           }
