@@ -73,6 +73,11 @@ To start working on the project, follow these steps:
    ```bash
    dotnet run --project ./BuberBreakfast/
    ```
+   
+5. Run ErrorOr package in BubberBreakfast project:
+   ```bash
+   dotnet add ./BuberBreakfast/ package ErrorOr
+   ```
 
 These steps will set up the solution and projects, allowing you to start developing your REST API.
 
