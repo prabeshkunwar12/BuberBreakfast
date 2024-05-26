@@ -1,8 +1,8 @@
 namespace BuberBreakfast.Contracts.Breakfast;
 
 public record UpsertBreakfastRequest(
-    string name,
-    string description,
+    string Name,
+    string Description,
     DateTime StartDateTime,
     DateTime EndDateTime,
     List<string> Savory,

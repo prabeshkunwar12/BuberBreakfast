@@ -2,8 +2,8 @@ namespace BuberBreakfast.Contracts.Breakfast;
 
 public record CreateBreakfastResponse(
     Guid Id,
-    string name,
-    string description,
+    string Name,
+    string Description,
     DateTime StartDateTime,
     DateTime EndDateTime,
     DateTime LastModifiedDateTime,
