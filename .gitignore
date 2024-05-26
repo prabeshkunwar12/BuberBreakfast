@@ -5,6 +5,8 @@
 
 ./BuberBreakfast/obj/
 ./BuberBreakfast/bin/
+./BuberBreakfast.Contracts/obj/
+./BuberBreakfast.Contracts/bin/
 
 # User-specific files
 *.rsuser

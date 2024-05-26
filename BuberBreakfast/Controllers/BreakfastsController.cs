@@ -61,14 +61,12 @@ public class BreakfastsController : ApiController{
 
         ErrorOr<UpsertedBreakfast> updatedResult = _breakfastService.UpsertBreakfast(breakfast);
         
-        updatedResult.Match(
+        return updatedResult.Match(
             upserted => upserted.IsNewlyCreated ? 
                 CreatedAtGetBreakfast(breakfast): 
                 NoContent(),
             errors => Problem(errors)
         );
-
-        return NoContent();
     }
 
     [HttpDelete("{id:guid}")]
